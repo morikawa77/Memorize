@@ -11,6 +11,11 @@ struct EmojiMemoryGameView: View {
     @ObservedObject var viewModel: EmojiMemoryGame
 
     var body: some View {
+        VStack(alignment: .leading) {
+            Text("Theme: \(viewModel.theme.name)").font(.title).padding(EdgeInsets(top: 20, leading: 20, bottom: 0, trailing: 0))
+            Text("Score: \(viewModel.score)").font(.headline).padding(EdgeInsets(top: 20, leading: 20, bottom: 0, trailing: 0))
+        }.frame(width: .greatestFiniteMagnitude)
+        
         Grid(viewModel.cards) { card in
                 CardView(card: card).onTapGesture {
                     viewModel.choose(card: card)
@@ -18,7 +23,14 @@ struct EmojiMemoryGameView: View {
                 .padding(5)
             }
             .padding()
-            .foregroundColor(Color.orange)
+            .foregroundColor(viewModel.theme.color)
+        
+        Button("New Game") {
+            withAnimation(.easeInOut){
+                viewModel.newGame()
+            }
+        }
+            .padding()
 
     }
 }

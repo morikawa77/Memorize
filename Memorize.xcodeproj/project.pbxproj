@@ -19,6 +19,7 @@
 		370C5A4D25DA72980072E79D /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C5A4C25DA72980072E79D /* GridLayout.swift */; };
 		370C5A5025DA782A0072E79D /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C5A4F25DA782A0072E79D /* Array+Identifiable.swift */; };
 		370C5A5325DA88D20072E79D /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C5A5225DA88D20072E79D /* Array+Only.swift */; };
+		370C5A5A25DA92090072E79D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370C5A5925DA92090072E79D /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		370C5A4C25DA72980072E79D /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
 		370C5A4F25DA782A0072E79D /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
 		370C5A5225DA88D20072E79D /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
+		370C5A5925DA92090072E79D /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				370C5A3725DA27C10072E79D /* Info.plist */,
 				370C5A3125DA27C10072E79D /* Preview Content */,
 				370C5A3E25DA28500072E79D /* EmojiMemoryGame.swift */,
+				370C5A5925DA92090072E79D /* Theme.swift */,
 				370C5A4125DA28690072E79D /* MemoryGame.swift */,
 				370C5A5225DA88D20072E79D /* Array+Only.swift */,
 			);
@@ -170,6 +173,7 @@
 				370C5A2E25DA27BF0072E79D /* EmojiMemoryGameView.swift in Sources */,
 				370C5A3F25DA28500072E79D /* EmojiMemoryGame.swift in Sources */,
 				370C5A5025DA782A0072E79D /* Array+Identifiable.swift in Sources */,
+				370C5A5A25DA92090072E79D /* Theme.swift in Sources */,
 				370C5A4D25DA72980072E79D /* GridLayout.swift in Sources */,
 				370C5A4A25DA6D3B0072E79D /* Grid.swift in Sources */,
 			);
