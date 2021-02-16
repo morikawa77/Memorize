@@ -1,4 +1,4 @@
-#  Memorize Game iOS App
+#  Memorize Game
 
 ### Stanford University's course CS193p 
 (Developing Applications for iOS using SwiftUI)
