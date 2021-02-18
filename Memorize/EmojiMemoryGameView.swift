@@ -25,12 +25,13 @@ struct EmojiMemoryGameView: View {
             .padding()
             .foregroundColor(viewModel.theme.color)
         
-        Button("New Game") {
-            withAnimation(.easeInOut){
-                viewModel.newGame()
+            Button("New Game") {
+                withAnimation(.easeInOut){
+                    viewModel.newGame()
+                }
             }
-        }
-            .padding()
+                .padding(20)
+                .foregroundColor(viewModel.theme.color)
 
     }
 }

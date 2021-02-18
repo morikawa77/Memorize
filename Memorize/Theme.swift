@@ -19,6 +19,6 @@ let themes: [Theme] = [
     Theme(name: "Hearts", emojis: ["❤️","🧡","💛","💚","💙","💜","🖤","🤍","🤎"], color: .gray, numberOfPairs: 4),
     Theme(name: "Horoscope", emojis: ["♈️","♉️","♊️","♋️","♌️","♍️","♎️","♏️","♐️","♑️","♒️","♓️"], color: .purple, numberOfPairs: 4),
     Theme(name: "Flags", emojis: ["🏳️","🏴","🏴‍☠️","🏁","🚩","🇧🇷"], color: .yellow, numberOfPairs: 4),
-    Theme(name: "Transportation", emojis: ["🚗","🚌","🛻","🚜","🛴","🛺","🚈","✈️","🚀","🛸","⛵️"], color: .black, numberOfPairs: 4),
+    Theme(name: "Transportation", emojis: ["🚗","🚌","🛻","🚜","🛴","🛺","🚈","✈️","🚀","🛸","⛵️"], color: .pink, numberOfPairs: 4),
     Theme(name: "Drink", emojis: ["🥛","☕️","🧃","🍺","🍹"], color: .red, numberOfPairs: 4),
 ]
